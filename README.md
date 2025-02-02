@@ -79,9 +79,9 @@ Users can choose the language model and the voice type via shadcn’s styled `Se
 3. Configure Environment Variables:
     - Create a `.env` file in the root of the project and add your API keys:
     ```env
-    REACT_APP_OPENAI_API_KEY=your_openai_api_key
-    REACT_APP_GROQ_API_KEY=your_groq_api_key
-    REACT_APP_ELEVENLABS_API_KEY=your_elevenlabs_api_key
+    VITE_OPENAI_API_KEY=your_openai_api_key
+    VITE_GROQ_API_KEY=your_groq_api_key
+    VITE_ELEVENLABS_API_KEY=your_elevenlabs_api_key
     ```
 
 4. Start the development server:
